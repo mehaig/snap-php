@@ -9,10 +9,10 @@
     <?php include(__DIR__ . "/../components/header.php"); ?>
     <?php include(__DIR__ . "/../components/navigation.php"); ?>
     <?php include(__DIR__ . "/../components/jumbo.php"); ?>
-
-   <?php include(__DIR__ . "/../components/footer.php"); ?>
+    <main class="mt-4">Test</main>
+   
     </div>
-    
+    <?php include(__DIR__ . "/../components/footer.php"); ?>
 </body>
 <?php include(__DIR__ . "/../includes/scripts.php"); ?>
 </html>
