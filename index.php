@@ -13,12 +13,12 @@ if ($_SERVER['REQUEST_URI'] == '/index.php') {
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
 <body>
-    <?php include("includes/navigation.php"); ?>
+    <?php include("components/navigation.php"); ?>
     <div class="container" id="main-content">
         <h2>Home</h2>
         <p>Welcome to the Home page!</p>
     </div>
-    <?php include("includes/footer.php"); ?>
+    <?php include("components/footer.php"); ?>
 </body>
 </html>
 
