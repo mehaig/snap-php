@@ -2,9 +2,9 @@
 
 
 <footer class="blog-footer ">
-	<p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+	<p>Theme build for snap-php</p>
 	<p>
-		<a href="#">Back to top</a>
+		<a href="https://github.com/mehaig/snap-php">Snap-PHP Repo</a>
 	</p>
 	&copy; <?php print date("Y"); ?>
 </footer>
