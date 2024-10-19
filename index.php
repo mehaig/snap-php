@@ -6,6 +6,7 @@ if ($_SERVER['REQUEST_URI'] == '/index.php') {
     exit();
 }
 ?>
+
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
@@ -13,13 +14,14 @@ if ($_SERVER['REQUEST_URI'] == '/index.php') {
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
 <body>
+    <div class="container">
+    <?php include("components/header.php"); ?>
     <?php include("components/navigation.php"); ?>
-    <div class="container" id="main-content">
-        <h2>Home</h2>
-        <p>Welcome to the Home page!</p>
+    <?php include("components/jumbo.php"); ?>
+    content here
+   <?php include("components/footer.php"); ?>
     </div>
-    <?php include("components/footer.php"); ?>
+    
 </body>
+<?php include("includes/scripts.php"); ?>
 </html>
-
-

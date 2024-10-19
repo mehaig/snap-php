@@ -9,7 +9,7 @@
     <?php include(__DIR__ . "/../components/header.php"); ?>
     <?php include(__DIR__ . "/../components/navigation.php"); ?>
     <?php include(__DIR__ . "/../components/jumbo.php"); ?>
-   here
+
    <?php include(__DIR__ . "/../components/footer.php"); ?>
     </div>
     
